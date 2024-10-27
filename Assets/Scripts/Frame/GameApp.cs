@@ -20,5 +20,8 @@ public class GameApp : MonoBehaviour
             return;
         }
         TimerManager.GetInstance().Update();
+        LogManager.Log("你好");
+        LogManager.Warn("我不好");
+        LogManager.Error("你不好");
     }
 }
