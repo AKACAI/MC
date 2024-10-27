@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameApp : MonoBehaviour
@@ -12,7 +9,6 @@ public class GameApp : MonoBehaviour
         this._isInit = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!this._isInit)
@@ -20,8 +16,5 @@ public class GameApp : MonoBehaviour
             return;
         }
         TimerManager.GetInstance().Update();
-        LogManager.Log("你好");
-        LogManager.Warn("我不好");
-        LogManager.Error("你不好");
     }
 }

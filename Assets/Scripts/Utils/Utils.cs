@@ -7,7 +7,7 @@ public class Utils
 {
     private static DateTime _startTime = new DateTime(1970, 1, 1, 0, 0, 0, 0);
 
-    /**获取当前时间戳*/
+    /**<summary> 获取当前时间戳 </summary>*/
     public static int GetTimeStamp()
     {
         TimeSpan ts = DateTime.Now - Utils._startTime;
