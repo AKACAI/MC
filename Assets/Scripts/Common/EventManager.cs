@@ -44,6 +44,5 @@ public class EventManager : Singleton<EventManager>
         {
             list[i]?.Invoke(arg);
         }
-        //
     }
 }
