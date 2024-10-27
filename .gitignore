@@ -67,6 +67,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# VsCode settings
+/vscode/settings.json
+
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
